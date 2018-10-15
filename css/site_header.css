@@ -1,0 +1,160 @@
+.site_header {
+	height: 100px;
+	line-height: 100px;
+	/*background: gray;*/
+}
+
+.header_logo {
+	width: 55px;
+	height: 55px;
+	background: url(../img/logo.png) no-repeat;
+	margin-top: 22px;
+}
+
+.site_header .container {
+	line-height: 100px;
+}
+
+.header_nav {
+	/*width: 827px;*/
+	line-height: 100px;
+}
+
+.header_nav ul>li {
+	float: left;
+	padding: 0 0 0 20px;
+}
+.menu_item  .nav_menu_item li{
+	padding: 0;
+}
+.header_nav li a {
+	color: #333;
+	font-size: 14px;
+}
+
+.header_search {
+	width: 308px;
+	height: ;
+}
+
+.search_form {
+	width: 308px;
+    height: 50px;
+    position: relative;
+    margin: 23px 0 0 0;
+}
+
+.search_btn {
+    width: 56px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 700;
+    margin-left: -1px;
+    display: inline-block;
+    border: 1px solid #b0b0b0;
+    color: #333333;
+    display: block;
+    float: left;
+}
+.search_hot_words a {
+    padding: 2px 5px;
+    background: #eee;
+    font-size: 12px;
+    margin: 0 0 0 4px;
+    color: #b0b0b0;
+}
+.search_text {
+    width: 249px;
+    height: 48px;
+    outline: none;
+    float: left;
+    position: relative;
+}
+.item_box{
+	position: absolute;
+	z-index: 9;
+	top:48px
+}
+.item_box .item{
+	width: 249px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 30px;
+    background: #fff;
+    line-height: 30px;
+    cursor:pointer
+	
+}
+.item_box .item:hover{
+	background: #f0f0f0;
+}
+.search_text{
+	text-indent: 10px;
+}
+.item_box .item a{
+	font-size: 12px;
+	color: #333;
+}
+.search_hot_words {
+    width: 152px;
+    position: absolute;
+    right: 30px;
+    top: -25px;
+    height: 48px;
+    padding: 0 14px 0 0;
+}
+.header_nav_menu {
+	height: 229px;
+	border-top: 1px solid #EEEEEE;
+	box-shadow: 0 3px 2px #eee;
+	background: #fff;
+	z-index: 999;
+	width: 100%;
+}
+
+.menu_item ul li {
+	float: left;
+}
+
+.menu_item ul li {
+	width: 196px;
+}
+
+.menu_item ul li img {
+	width: 160px;
+	height: 110px;
+}
+
+.menu_item {
+	position: absolute;
+	text-align: center;
+	background: #fff;
+}
+
+.menu_item a {
+	color: #333;
+}
+
+.nav_menu_item {
+	height: 100px;
+}
+
+.nav_menu_item li p {
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.menu_item ul {
+	/*display: none;*/
+}
+
+.header_nav_menu {
+	display: none;
+	position: absolute;
+	left: 0;
+}
+.nav_box{
+	/*position: relative;*/
+}

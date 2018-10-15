@@ -1,0 +1,1040 @@
+html {
+	font-size: 62.5%;
+}
+
+.header_logo a {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+}
+
+.nav_bar {
+	height: 60px;
+}
+
+.nav_bar h2 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 60px;
+	color: #212121;
+	float: left;
+}
+
+.nav_bar div {
+	line-height: 60px;
+}
+
+.nav_bar div.fl span {
+	margin: 0 5px;
+}
+
+.nav_bar div.fr a {
+	margin: 0 5px;
+}
+
+.nav_bar div.fl,
+.nav_bar div.fr {
+	font-size: 12px;
+}
+
+.nav_bar .fl a,
+.nav_bar .fr a {
+	color: #616161;
+	text-decoration: none;
+}
+
+
+/*#section_border img {
+	max-width: 100%;
+
+	height: auto;
+}*/
+
+
+/*img {
+	width: 100%;
+	height: 100%;
+}*/
+
+.section_screen {
+	height: 900px;
+	background: url(../img/xiaomi8/screen.jpg)no-repeat 50% 0;
+	background-size: cover;
+}
+
+.section_screen {
+	height: 900px;
+	/*background: url(../img/xiaomi8/screen.jpg)no-repeat 50% bottom;*/
+	/*background-size: cover;*/
+}
+
+.title {
+	font-size: 0.7em;
+}
+
+.section_screen {
+	color: #fff;
+}
+
+.nav_bar {
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	-webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07);
+}
+
+.items {
+	display: flex;
+	width: 600px;
+	margin: 100px auto 0;
+}
+
+.items li {
+	flex: 1;
+	/*float: left;*/
+	/*width: 25%;*/
+}
+
+.section_screen {
+	position: relative;
+}
+
+.bottom_info {
+	font-size: 0.16em;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	color: #9b9b9b;
+}
+
+.items li h3 {
+	font-size: 0.4em;
+	font-weight: 400;
+}
+
+.items li p {
+	font-size: 0.2em;
+	margin-top: 10px;
+	color: #9b9b9b;
+}
+
+.section_gps {
+	height: 955px;
+	background: url(../img/xiaomi8/gps.jpg)no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 80px;
+	height: 12.9em;
+}
+
+.section_camera {
+	height: 15em;
+	background: url(../img/xiaomi8/camera.jpg)no-repeat 50% 0;
+	background-size: cover;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.title_desc {
+	font-size: 0.2em;
+	margin-top: 20px;
+}
+
+.camera_info {
+	margin-top: 80px;
+}
+
+.camera_items {
+	display: flex;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.camera_items .item span {
+	float: left;
+}
+
+.camera_items .item span:nth-child(1) {
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	background: no-repeat center center;
+}
+
+.camera_items .item {
+	flex: 1;
+	font-size: 0.21em;
+	line-height: 55px;
+}
+
+.section_screen {
+	min-width: 1170px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 80px;
+}
+
+#gps_info .desc {
+	margin-top: 10px;
+}
+
+.gps_desc {
+	font-size: 0.2em;
+	margin-top: 10px;
+}
+
+.ui_wrapper {
+	background: gray;
+	position: relative;
+}
+
+.ui_wrapper ul {
+	width: 100%;
+	height: 100%;
+}
+
+.ui_wrapper li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+/*.ui_wrapper li img {
+	width: 100%;
+	height: 100%;
+}*/
+
+.ui_page {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -63px;
+}
+
+.ui_page a {
+	display: inline-block;
+	width: 30px;
+	height: 3px;
+	background: #888;
+	margin: 0 -4px;
+}
+
+.ui_wrapper ul li {}
+
+.ui_page a.on {
+	background: #fff;
+}
+
+#section_border .page a.on {
+	background: #fff;
+}
+
+.section_index {
+	min-width: 1190px;
+	position: relative;
+}
+
+.section_index .txt {
+	position: absolute;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+	/*后期需要修改---------------------------------------------*/
+}
+
+.txt .price {}
+
+.txt .price i {
+	font-style: normal;
+}
+
+.z_index3 {
+	z-index: 3;
+}
+
+.z_index4 {
+	z-index: 4;
+}
+
+
+/*.z_index2{
+	z-index: 2;
+}
+.z_index1{
+	z-index: 1;
+}*/
+
+.ui_page {
+	z-index: 999;
+}
+
+.section_gallery {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: 627px;
+}
+
+#section_gallery .page {
+	position: absolute;
+	bottom: 43px;
+	left: 50%;
+	margin-left: -85px;
+}
+
+#section_gallery .page a {
+	display: inline-block;
+	width: 30px;
+	height: 3px;
+	background: #d8d8d8;
+	margin: 0 -4px;
+}
+
+#section_gallery .page a:hover {
+	background: #888;
+}
+
+.gallery_list {
+	width: 1000%;
+	/*width: calc(100%-10px); 无效*/
+	/*width: calc(1000px*2); 有效*/
+	/*width: calc(1000px+2px); 无效*/
+	/*margin-left: calc(-951px/2);*/
+	margin-left: -475px;
+	/*margin-left: -1426px;*/
+}
+
+#section_pic {
+	min-width: 1170px;
+	height: 1053px;
+	margin: 144px auto 0;
+}
+
+#section_video {
+	margin-top: 100px;
+	height: 683px;
+}
+
+#section_video .hand {
+	height: 879px;
+	background: url(../img/xiaomi8/hand.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 100%;
+	z-index: 3;
+}
+
+#section_pic .pic {
+	position: relative;
+	margin: 80px auto 0;
+	width: 1170px;
+}
+
+.vidio_section video {
+    margin-top: 0.79em;
+    width: 9.41em;
+    height: 4.54em;
+    position: absolute;
+    left: 12.83em;
+    margin-left: -4.7em;
+    z-index: 1;
+    background: #111;
+}
+
+.vidio_section {
+	position: relative;
+	height: 426px;
+}
+
+#section_video .tips {
+	font-size: 0.1em;
+	text-align: center;
+	color: #9B9B9B;
+}
+
+.vidio_section .poster_img {
+	margin-top: 0.79em;
+    width: 697px;
+    height: 337px;
+    position: absolute;
+    left: 12.83em;
+    margin-left: -4.7em;
+    z-index: 2;
+    width: 9.41em;
+    height: 4.54em;
+}
+
+.vidio_section .play_btn {
+	margin-top: 0.79em;
+	position: absolute;
+	/*left: 66%;*/
+	left: 17em;
+	/*top: 33%;*/
+	top:1.8em;
+	/*margin-left: -348px;*/
+	margin-left: -4.7em;
+	z-index: 4;
+}
+
+.vidio_section .pause_btn {
+	margin-top: 59px;
+	position: absolute;
+	/*left: 67%;*/
+	left:17.3em;
+	/*top: 38%;*/
+	top:1.87em;
+	/*margin-left: -348px;*/
+	margin-left: -4.7em;
+	z-index: 4;
+	display: none;
+}
+
+#section_video .type {
+	position: absolute;
+	left: 50%;
+	margin-left: -280px;
+	margin-top: 40px;
+}
+
+#section_video .type li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 20px;
+}
+
+#section_video .type li img {
+	width: 100%;
+}
+
+#section_pic .pic li {
+	float: left;
+	position: absolute;
+	width: 1170px;
+}
+
+#section_pic .pic li img {
+	width: 100%;
+}
+
+#section_pic .pic ul {
+	height: 739px;
+}
+
+#section_pic .text,
+#section_video .text {
+	display: flex;
+	height: 100px;
+	overflow: hidden;
+	/*width: 1226px;*/
+	width: 951px;
+	margin: 0 auto;
+}
+
+#section_video .text div {
+	/* text-align: center; */
+	flex: 1;
+	font-size: 0.5em;
+	margin-left: 68px;
+}
+
+#section_video .text div:nth-child(2) p {
+	font-size: 0.45em;
+	line-height: 28px;
+}
+
+#section_pic .text div {
+	/*text-align: center;*/
+	flex: 1;
+	font-size: 0.5em;
+	margin-left: 68px;
+}
+
+#section_pic .text div:nth-child(2) p {
+	font-size: 0.45em;
+	line-height: 28px;
+}
+
+#section_gallery .gallery_info {
+	position: absolute;
+	font-size: 0.2em;
+	text-align: center;
+	bottom: 10px;
+	text-align: center;
+	left: 50%;
+	margin-left: -73px;
+}
+
+.section_gallery li {
+	/*height: 540px;*/
+	float: left;
+}
+
+.gallery_list li {
+	width: 951px;
+	height: 528px;
+	overflow: hidden;
+}
+
+.gallery_list li img {
+	width: 100%;
+	height: auto;
+}
+
+.col {
+	color: #fff;
+}
+
+.setion_item_box li.bor_right_none {
+	border-right: none;
+}
+
+@media only screen and (max-width: 1200px) {
+	.ui_wrapper {
+		height: 677px;
+	}
+	/*.txt img {
+		width: 10rem;
+	}*/
+	/*.txt {
+		font-size: 1.2rem;
+	}*/
+	.txt h2 {
+		font-size: 1rem;
+		letter-spacing: 0.5rem;
+		font-weight: 200;
+		margin-bottom: 0.5rem;
+	}
+	.txt p {
+		margin-bottom: 1.5rem;
+		font-size: 1rem;
+	}
+	.txt .price {
+		font-family: 'Fae796';
+		font-size: 2rem;
+		font-weight: 100;
+	}
+	.txt .price i span {
+		font-size: 1rem;
+	}
+	.txt .price del {
+		font-size: 1rem;
+	}
+}
+
+
+/*固定宽度*/
+
+@media only screen and (max-width: 1000px) {
+	.setion_item_box li {
+		width: 191px;
+		height: 99px;
+		float: left;
+		box-sizing: border-box;
+		border-bottom: 1px solid #e0e0e0;
+		border-right: 1px solid #e0e0e0;
+		text-align: center;
+		padding: 25px 0;
+		letter-spacing: 1px;
+	}
+	.setion_item_box span.name {
+		font-size: 16px;
+	}
+	.setion_item_box span.tip {
+		color: #b0b0b0;
+	}
+	.setion_item_box li span {
+		display: block;
+	}
+	.setion_item_box li.bor_none {
+		border-bottom: none;
+	}
+}
+
+.setion_item_box span.name {
+	color: #111111;
+	line-height: 1;
+	display: block;
+	font-size: .32em;
+}
+
+.setion_item_box span.tip {
+	font-size: .22em;
+	margin-top: .52em;
+	letter-spacing: 1px;
+	color: #6d6d6d;
+}
+
+.txt img {
+	width: 2.3em;
+	height: 0.77em;
+}
+
+.mi8_index {
+	min-width: 1226px;
+}
+
+.setion_item_box {
+	width: 19.36em;
+	margin: .88em auto;
+}
+
+.setion_item_box li {
+	list-style: none;
+	width: 4.82em;
+	float: left;
+	text-align: center;
+	border-right: 0;
+	border-bottom: 0;
+	padding: .56em 0 .5em;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+}
+
+.setion_item_box span.name {
+	color: #111111;
+	line-height: 1;
+	display: block;
+	font-size: .32em;
+}
+
+.setion_item_box span.tip {
+	font-size: .22em;
+	margin-top: .52em;
+	letter-spacing: 1px;
+	color: #6d6d6d;
+}
+
+.setion_item_box li span {
+	display: block;
+}
+
+.setion_item_box li.bor_none {
+	border-bottom: none;
+}
+
+.txt h2 {
+	font-size: .23em;
+	padding-top: 0;
+	font-family: 'F5a5b8';
+	line-height: 1.2;
+	margin-bottom: .4em;
+	letter-spacing: 5px;
+	/*animation: ani 5s 0.25s ease;*/
+}
+
+.txt p {
+	font-size: .18em;
+	font-family: 'F09acd';
+	line-height: 1.64;
+	/*transform: translate3d(0, 0, 0);
+	opacity: 1;
+	transition: transform 700ms cubic-bezier(0.25, 0.46, 0.33, 0.98), opacity 700ms cubic-bezier(0.25, 0.46, 0.33, 0.98);*/
+}
+
+.txt p span {
+	margin: 0 0.3em;
+}
+
+.po {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+
+/*@keyframes ani{
+	from{opacity: 0;margin-bottom: 2em;}
+	to{opacity: 1;margin-bottom: .4em;}
+}
+@keyframes ani_p{
+	from{opacity: 0;margin-bottom: 4em;}
+	to{opacity: 1;margin-bottom: 0;}
+}*/
+
+.txt .price {
+	font-size: .48em;
+	margin-top: .5em;
+}
+
+.txt .price i span {
+	font-size: 2rem;
+}
+
+.txt .price del {
+	font-size: 2rem;
+	position: relative;
+	margin-left: 1em;
+}
+
+.txt .price span {
+	position: relative;
+}
+
+.txt .price span sup {
+	top: 0.15em;
+	left: -1em;
+	/* margin-right: -10.8em; */
+	position: absolute;
+}
+
+.txt .price del sup {
+	top: 0.15em;
+	left: -1em;
+	/* margin-right: -10.8em; */
+	position: absolute;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2050px) {
+	.ui_wrapper {
+		height: 900px;
+	}
+	/*.txt img {
+		width: 15rem;
+	}*/
+	/*.txt {
+		font-size: 2.4rem;
+	}*/
+	/*#secion_specs {
+		width: 80%;
+		margin: 3rem auto;
+	}*/
+	/*.setion_item_box li {
+		width: calc(25% - 1px);
+		float: left;
+		height: 12.6rem;
+		box-sizing: border-box;
+		border-bottom: 1px solid #e0e0e0;
+		border-right: 1px solid #e0e0e0;
+		text-align: center;
+		padding: 2.5rem 0rem;
+		letter-spacing: 0.1rem;
+	}*/
+}
+
+
+}
+@media only screen and (max-width: 768px) {
+	#section_border .img_box li {
+		width: 100%;
+		height: 670px;
+		position: absolute;
+	}
+	
+	#section_border {
+		height: 670px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#section_border .img_box li {
+		width: 100%;
+		height: 670px;
+		position: absolute;
+	}
+	
+	#section_border .btn a {
+		color: #7B7B7B;
+	}
+	
+	#section_border .btn a:nth-child(1) {
+		font-size: 45px;
+		position: absolute;
+		top: 50%;
+		z-index: 6;
+		left: 20px;
+	}
+	
+	#section_border .btn a:nth-child(2) {
+		font-size: 45px;
+		position: absolute;
+		top: 50%;
+		z-index: 6;
+		right: 20px;
+	}
+	
+	#section_border {
+		height: 670px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+	#section_border .img_box li {
+		width: 100%;
+		height: 670px;
+		position: absolute;
+	}
+	
+	#section_border {
+		height: 670px;
+	}
+	
+	#section_border .btn a {
+		color: #7B7B7B;
+	}
+	
+	#section_border .btn a:nth-child(1) {
+		font-size: 45px;
+		position: absolute;
+		top: 50%;
+		z-index: 6;
+		left: 20px;
+	}
+	
+	#section_border .btn a:nth-child(2) {
+		font-size: 45px;
+		position: absolute;
+		top: 50%;
+		z-index: 6;
+		right: 20px;
+	}
+}
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+	#section_border .img_box li {
+		width: 100%;
+		height: 670px;
+		position: absolute;
+	}
+	
+	#section_border {
+		height: 670px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	#section_border .img_box li {
+		width: 100%;
+		height: 900px;
+		position: absolute;
+	}
+	
+	#section_border {
+		height: 900px;
+	}
+	
+	#section_border .btn a {
+		color: #7B7B7B;
+	}
+	
+	#section_border .btn a:nth-child(1) {
+		font-size: 45px;
+		position: absolute;
+		top: 50%;
+		z-index: 6;
+		left: 20px;
+	}
+	
+	#section_border .btn a:nth-child(2) {
+		font-size: 45px;
+		position: absolute;
+		top: 50%;
+		z-index: 6;
+		right: 20px;
+	}
+}
+#section_border {
+	position: relative;
+}
+#section_border .page {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -85px;
+}
+#section_border .page a {
+	display: inline-block;
+	width: 30px;
+	height: 3px;
+	background: #888;
+	margin: 0 -4px;
+}
+#section_border .img_box li {
+	overflow: hidden;
+	background: red;
+}
+#section_border {
+	min-width: 1190px;
+}
+.setion_item_box li {
+	float: left;
+}
+
+/*.webfont{
+	font-size: .7em;
+    padding-top: 1.8em;
+    line-height: 1.2;
+    margin-bottom: .4em;
+}*/
+#section_border .txt_box {
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+	width: 100%;
+}
+.webfont {
+	font-size: .7em;
+	padding-top: 1.8em;
+	line-height: 1.2;
+	margin-bottom: .4em;
+}
+.txt_box>p {
+	font-size: .22em;
+	line-height: 1.64;
+}
+#section_pic .page {
+	position: absolute;
+	bottom: -120px;
+	left: 50%;
+	margin-left: -85px;
+	cursor: default;
+}
+.pic .desc {
+	text-align: center;
+	margin-top: 10px;
+}
+.pic .desc h3 {
+	font-size: 0.35em;
+	font-weight: 400;
+}
+.pic .desc p {
+	font-size: 0.25em;
+	margin-top: 15px;
+}
+#section_pic .page a {
+	display: inline-block;
+	width: 30px;
+	height: 3px;
+	background: #e0e0e0;
+	margin: 0 -5px;
+	transition: all 0.5 ease;
+}
+#section_pic .page a:hover {
+	background: #888;
+}
+#section_pic .page a.on {
+	background: #888;
+}
+.pic .z_index_heighest {
+	z-index: 5;
+}
+.pic .btn i {
+	position: absolute;
+	font-size: 21px;
+	top: 50%;
+	color: #666;
+	cursor: pointer;
+}
+.pic .btn i:nth-child(1) {
+	left: -30px;
+}
+.pic .btn i:nth-child(2) {
+	right: -30px;
+}
+.pic {
+	position: relative;
+}
+.pic .desc {
+	display: none;
+}
+.pic li .desc.show {
+	display: block;
+}
+#section_aicamera .text div {
+	/* text-align: center; */
+	
+	flex: 1;
+	font-size: 0.5em;
+	margin-left: 68px;
+}
+#section_aicamera .text div:nth-child(2) p {
+	font-size: 0.45em;
+	line-height: 28px;
+}
+#section_aicamera .text {
+	display: flex;
+	height: 100px;
+	overflow: hidden;
+	/* width: 1226px; */
+	
+	width: 951px;
+	margin: 0 auto;
+}
+#section_aicamera .aicamera_img {
+	width: 1170px;
+	    margin: 100px auto 0;
+}
+#section_aicamera .aicamera_img li {
+	float: left;
+	width: 291px;
+	margin: 0 48px;
+}
+#section_aicamera .aicamera_img li img {
+	width: 100%;
+}
+#section_aicamera .aicamera_img .desc h5 {
+	font-size: 0.22em;
+    font-weight: 400;
+        text-align: center;
+}
+#section_aicamera .aicamera_img .desc{
+        text-align: center;
+	margin-top: 20px;
+}
+#section_aicamera .aicamera_img .desc p {
+	font-size: 0.15em;
+    margin-top: 5px;
+
+
+}
+#section_ai{
+    height: 955px;
+    background: url(../img/xiaomi8/ai.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    height: 12.9em;
+    margin-top: 100px;
+    color: #fff;
+        position: relative;
+}
+#section_ai .desc{
+        text-align: center;
+	margin-top: 30px;
+}
+#section_ai .tips{
+	    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.15em;
+}
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both
+}
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp
+}
+.animated_dely{
+	animation-delay: 0.4s;
+}

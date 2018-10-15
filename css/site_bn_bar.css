@@ -1,0 +1,7 @@
+
+.site_bn_bar {
+    min-width: 1190px;
+    height: 100px;
+    background: url(../img/site_bn_bar.jpg) no-repeat center center;
+    background-size: cover;
+}

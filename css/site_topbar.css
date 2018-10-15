@@ -1,0 +1,60 @@
+
+.site_topbar {
+	font-size: 12px;
+	color: #b0b0b0;
+	background: #333;
+	height: 40px;
+	/* width: 100%; */
+	min-width: 1190px;
+}
+.container{
+	width:1190px;
+	margin: 0 auto;
+}
+.topbar_nav a,.topbar_info a{
+				color: #b0b0b0;
+				margin: 0 10px 0 0;
+			}
+			
+			.topbar_nav span ,.topbar_info span{
+				color: #424242;
+			}
+			
+			.topbar_nav {
+				width: 556px;
+				line-height: 40px;
+			}
+			.topbar_info{
+				width: 142px;
+			}
+			.topbar_left{
+				width: 556px;
+			}
+			.topbar_right{
+				width: 22%;
+				line-height: 40px;
+			}
+			
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			input {
+				border: 1px solid #b0b0b0;
+			}
+			
+			#ul_ban li img {
+				width: 956px;
+				height: 460px;
+			}
+			
+			#ul_ban {
+				width: 1000%;
+			}
+			
+			#ul_ban li {
+				float: left;
+				width: 956px;
+				position: absolute;
+			}

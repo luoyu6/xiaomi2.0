@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+
+		<style type="text/css">
+			.logo {
+				height: 99px;
+			}
+			
+			.container {
+				width: 1170px;
+				margin: 0 auto;
+			}
+			
+			.login_section {
+				height: 588px;
+				background: url(img/bg01.jpg) no-repeat center;
+				position: relative;
+			}
+			
+			.product_link {
+				display: block;
+				height: 588px;
+			}
+			
+			.login_box {
+				width: 409px;
+				height: 525px;
+				background: red;
+				position: absolute;
+				top: 50%;
+				right: 377px;
+				margin-top: -262px;
+			}
+			
+			.formbox {
+				width: 409px;
+				height: 525px;
+				padding: 30px;
+				background: #fff;
+				box-sizing: border-box;
+				cursor: default;
+			}
+			
+			.title {
+				display: flex;
+				text-align: center;
+			}
+			
+			.title h5 {
+				flex: 20;
+				font-size: 23px;
+				font-weight: 400;
+				color: #F56600;
+			}
+			
+			.title span {
+				flex: 1;
+				font-size: 24px;
+				color: #b0b0b0;
+			}
+			
+			.login_form input[type='text'],
+			input[type='password'],
+			input[type='submit'] {
+				width: 100%;
+				height: 49px;
+				outline: none;
+				border: ;
+				padding: 0 15px;
+				box-sizing: border-box;
+				margin-top: 15px;
+				border: 1px solid #e0e0e0;
+			}
+			
+			.login_form input[type='submit'] {
+				background: #F56600;
+				color: #fff;
+				border: none;
+				margin-top: 26px;
+			}
+			
+			#submit {
+				display: inline-block;
+				width: 100%;
+				height: 49px;
+				outline: none;
+				border: ;
+				padding: 0 15px;
+				box-sizing: border-box;
+				margin-top: 15px;
+				border: 1px solid #e0e0e0;
+				background: #F56600;
+				color: #fff;
+				border: none;
+				margin-top: 26px;
+				text-align: center;
+				line-height: 49px;
+				cursor: pointer;
+				font-size: 14px;
+			}
+			
+			.login_form {
+				padding-top: 20px;
+			}
+			
+			.other_panel {
+				margin-top: 10px;
+				font-size: 14px;
+			}
+			
+			.custom_display {
+				color: #F56600;
+			}
+			
+			.outer_link {
+				color: #999;
+			}
+			
+			#number_msg {
+				font-size: 14px;
+				color: #F56600;
+				background: ;
+			}
+			
+			.hint {
+				margin-top: 15px;
+				display: none;
+			}
+			
+			.number_msg_i {
+				display: inline-block;
+				width: 18px;
+				height: 18px;
+				background: url(img/login/sprite_login.gif) no-repeat left bottom;
+			}
+			
+			.login_box_wraper {
+				display: block;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="container">
+			<div class="logo">
+				<a href="index.html"><img src="img/mistore_logo.png" /></a>
+			</div>
+		</header>
+		<section>
+			<div class="login_section">
+				<a href="product.html" class="product_link"></a>
+
+				<div class="login_box">
+					<div class="formbox">
+						<div class="title clearfix">
+							<h5>帐号登录</h5>
+							<span>|</span>
+							<h5>扫码登录</h5>
+						</div>
+						<form class="login_form" action="" onsubmit="return show()">
+							<input type="text" name="" autocomplete="off" id="number" value="" placeholder="邮箱/手机号码/小米ID" maxlength="30" />
+							<input type="password" name="" placeholder="密码" id="password" maxlength="30" />
+							<input type="submit" name="" placeholder="登录" id="submit" value="登录" />
+							<!--<a id="submit" href="javascript:;">登录</a>-->
+
+							<div class="hint clearfix">
+								<i class="number_msg_i fl"></i>
+								<p id="number_msg" class="fl"></p>
+							</div>
+						</form>
+						<div class="other_panel clearfix">
+							<span class="fl custom_display">手机短信登录/注册</span>
+							<span class="fr outer_link">立即注册| 忘记密码？</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</body>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		/*$('#submit').click(function() {　　　　
+									
+								});*/
+
+		function show() {
+			var phone_val = $("#number").val();
+			var psw = 　$('#password').val()　　
+
+			var flag = isUser(phone_val, psw);
+			return flag;
+		}
+
+		function isUser(user, psw) {
+			var patrn = /^[0-9]*$/;
+			if(patrn.test(user)) { //如若输入的用户名是纯数字，就去验证电话号码，否则就去验证邮箱
+				return isPhoneAvailable(user, psw);
+			} else {
+				return isEmailAvailable(user, psw);
+			}
+
+		}
+
+		function isPhoneAvailable(username, psw) {　　
+			var phone_reg = /^[1][3,4,5,7,8][0-9]{9}$/;　 //手机号表达式
+			if(username != "" && !phone_reg.test(username)) {　　
+				$('.hint').show().find('#number_msg').html("手机号用户名不正确,啊啊啊");
+				//				$('.hint').show().find('#number_msg').html("用户名不正确");
+				return false;　　
+			}
+
+			if(username == "") {　　
+				$('.hint').show().find('#number_msg').html("请输入帐号");　
+				return false;　
+			}　
+			if(psw == "") {　
+				$('.hint').show().find("#number_msg").html("请输入密码");　
+				return false;　
+			} else {　　
+				$('.hint').hide();　
+				return true;　　
+			}　
+
+		}
+
+		function isEmailAvailable(email, psw) {
+
+			var email_reg = /^[A-Za-z\d]+([-_.][A-Za-z\d]+)*@([A-Za-z\d]+[-.])+[A-Za-z\d]{2,4}$/　;　　 //邮箱表达式
+			if(email != "" && !email_reg.test(email)) {　　
+				$('.hint').show().find('#number_msg').html("邮箱用户名不正确,啊啊啊");
+				//				$('.hint').show().find('#number_msg').html("用户名不正确");
+				$('#number_msg').addClass('ooo');
+				return false;　　
+			}
+			if(email == "") {　　
+				$('.hint').show().find('#number_msg').html("请输入帐号");　　　
+				return false;　
+			}　
+			if(psw == "") {　
+				$('.hint').show().find("#number_msg").html("请输入密码");　　　
+				return false;　
+			} else {　　
+				$('.hint').hide();　
+				return true;　　
+			}
+
+		}
+		$('.formbox').click(function(e) {
+			//			e.preventDefault();
+			/*$('.formbox').click(function(e){
+				$(this).parent().prev().preventdefault();
+			})*/
+		})
+	</script>
+
+</html>

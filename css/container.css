@@ -1,0 +1,339 @@
+.nav_item_box li {
+	width: 234px;
+	height: 42px;
+	line-height: 42px;
+}
+
+.nav_item_box li a {
+	padding: 0 0 0 30px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.nav_item_box li:hover {
+	background: #ff6700;
+	color: #fff;
+}
+
+.xm_sg_banner_box {
+	margin-left: -964px;
+}
+
+.nav_item_box {
+	padding: 20px 0;
+}
+
+.siderbar_nav {
+	width: 234px;
+	background: #4a5155;
+	position: relative;
+}
+
+.banner {
+	width: 956px;
+	height: 460px;
+	overflow: hidden;
+	position: relative;
+	/*background: #EEEEEE;*/
+}
+
+.siderbar_nav .submenu {
+	width: 239px;
+	height: 460px;
+	border-top: 1px solid #b0b0b0;
+	box-shadow: 0 10px 10px #b0b0b0;
+	display: none;
+	background: #fff;
+	/*margin-top: 25px;;*/
+	/*padding: 0 0 0 10px;*/
+}
+
+.submenu_item {
+	width: 239px;
+	height: 460px;
+	margin: 10px 0 0 0;
+}
+
+.postn {
+	position: absolute;
+	top: 0;
+	left: 234px;
+	z-index: 999;
+}
+
+.siderbar_nav .submenu li {
+	width: 239px;
+	float: left;
+	background: #fff;
+	height: 73px;
+	cursor: pointer;
+	line-height: 73px;
+	/*padding: 0px 0 0 13px;*/
+	/*border: 1px solid green;*/
+}
+
+.siderbar_nav .submenu ul li a img {
+	width: 40px;
+	height: 40px;
+	padding: 17px 10px 0 20px;
+	display: block;
+	float: left;
+}
+
+.siderbar_nav .submenu ul li a {
+	color: #333;
+}
+
+.ul_ban li img {
+	width: 956px;
+	height: 460px;
+}
+
+.ul_ban {
+	width: 1000%;
+}
+
+.ul_ban li {
+	float: left;
+	width: 956px;
+}
+
+.btn a i {
+	display: inline-block;
+	width: 42px;
+	height: 70px;
+	font-size: 37px;
+	/*background: red;*/
+	position: absolute;
+	top: 50%;
+	z-index: 99;
+	color: #b0b0b0;
+	line-height: 70px;
+	font-weight: 400;
+}
+
+.btn a i:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.btn a i.i_prev {
+	left: 0;
+}
+
+.btn a i.i_next {
+	right: 0;
+}
+
+.ban_index dd {
+	width: 6px;
+	height: 6px;
+	margin: 0 5px;
+	border: 2px solid #fff;
+	border-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	float: left;
+}
+
+.ban_index {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+
+.ban_index dd.bg {
+	background: #fff;
+}
+
+.bottom_img {
+	height: 170px;
+	margin-top: 15px;
+}
+
+.select_nav {
+	width: 234px;
+}
+
+.select_nav li {
+	float: left;
+	width: 77px;
+	height: 81px;
+	background: #5f5750;
+	border-right: 1px solid #B0B0B0;
+	border-bottom: 1px solid #B0B0B0;
+	line-height: 81px;
+	text-align: center;
+}
+
+.imgbox li {
+	margin: 0 0 0 15px;
+	width: 303px;
+	height: 170px;
+	float: left;
+}
+
+.imgbox li img {
+	width: 100%;
+}
+
+
+/*小米闪购*/
+
+.xm_plain_box {
+	/*height: 339px;*/
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.box_hd .more a i {
+	display: inline-block;
+	width: 36px;
+	height: 24px;
+	border: 1px solid #B0B0B0;
+	font-size: 16px;
+	font-weight: 700;
+	/* position: absolute; */
+	line-height: 24px;
+	text-align: center;
+	color: #b0b0b0;
+}
+
+
+/*.box_hd .more a i:hover{
+	color:#FF6700 ;
+}*/
+
+.box_hd {
+	margin-bottom: 20px;
+}
+
+.date {
+	width: 226px;
+	height: 339px;
+	box-sizing: border-box;
+}
+
+.date p:nth-child(1) {
+	font-size: 21px;
+	color: #ef3a3b;
+	padding-top: 15px;
+}
+
+.xm_sg_banner li {
+	width: 226px;
+	height: 339px;
+	float: left;
+	margin-left: 15px;
+}
+
+.xm_sg_banner li a img {
+	width: 100%;
+}
+
+.date {
+	text-align: center;
+	/*border-top: 1px solid red;*/
+	background: #f1eded;
+	padding-top: 39px;
+}
+
+.date img {
+	margin: 25px 0;
+}
+
+.date .datetime {
+	margin: 28px 28px 0 28px;
+	text-align: center;
+}
+
+.datetime span.dosh {
+	width: 15px;
+	height: 46px;
+	display: inline-block;
+	float: left;
+	line-height: 46px;
+	color: #605751;
+	font-size: 28px;
+}
+
+.datetime span.box {
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	background: #605751;
+	color: #fff;
+	font-size: 24px;
+	line-height: 46px;
+	float: left;
+}
+
+
+/*.xm_sg_banner:nth-child(2){
+				border-top: 1px solid green;
+			}*/
+
+.xm_sg_banner {
+	/*width: 1000%;*/
+}
+
+.xm_ban_box {
+	height: 339px;
+	width: 964px;
+	overflow: hidden;
+}
+
+.more i.colo {
+	color: #e0e0e0 !important;
+}
+
+.xm_sg_banner li {
+	background: rgba(0, 0, 0, 0.02);
+	text-align: center;
+	padding-top: 30px;
+}
+
+.xm_sg_banner li a img {
+	width: 160px;
+}
+
+.xm_sg_banner_box {
+	width: 1000%;
+}
+
+.xm_sg_banner p {
+	margin: 10px 0;
+}
+
+.xm_sg_banner p.name {
+	font-size: 14px;
+}
+
+.xm_sg_banner {
+	text-align: center;
+}
+
+.xm_sg_banner p.desc {
+	font-size: 14px;
+	color: #b0b0b0;
+	overflow: hidden;
+	margin: 1px 26px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 177px;
+	text-align: center;
+}
+
+.xm_sg_banner p.price {
+	font-size: 14px;
+	color: #FF6700;
+}
+
+
+/*小米闪购*/
+
+.home_banner_box {
+	height: 120px;
+	margin: 40px auto;
+	background: url(../img/home-banner-box.jpg)no-repeat center center;
+	background-size: cover;
+}
