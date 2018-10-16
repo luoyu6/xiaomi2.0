@@ -536,17 +536,17 @@
 		var b = false;
 		$('#section_video .vidio_section a').click(function() {
 			var video = document.getElementById('video');
-			if(!b) {
+		if(!b) {
 				video.play();
 				$('#section_video .vidio_section .poster_img').hide();
-				$('#section_video .vidio_section .pause_btn').hide();
-				$('#section_video .vidio_section .play_btn').show();
+				$('#section_video .vidio_section .pause_btn').show();
+				$('#section_video .vidio_section .play_btn').hide();
 
 				b = true;
 			} else {
 				video.pause();
-				$('#section_video .vidio_section .pause_btn').show();
-				$('#section_video .vidio_section .play_btn').hide();
+				$('#section_video .vidio_section .pause_btn').hide();
+				$('#section_video .vidio_section .play_btn').show();
 				//				$('#section_video .vidio_section .poster_img').show();
 
 				b = false;
