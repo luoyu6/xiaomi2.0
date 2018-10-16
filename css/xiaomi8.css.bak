@@ -854,7 +854,7 @@ html {
 }
 #section_border .img_box li {
 	overflow: hidden;
-	
+	background: red;
 }
 #section_border {
 	min-width: 1190px;
